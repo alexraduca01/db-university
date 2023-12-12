@@ -9,3 +9,7 @@
 3.  SELECT COUNT(`exam_id`) AS `id_esame`,  AVG(`vote`) AS `voto_medio` 
     FROM `exam_student` 
     GROUP BY  `exam_id` ASC;
+
+4.  SELECT `department_id`, COUNT(`id`) AS `degree_id`
+    FROM `degrees`
+    GROUP BY `department_id`;
