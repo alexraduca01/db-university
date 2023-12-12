@@ -3,3 +3,5 @@
 2. SELECT * FROM `courses` WHERE `cfu` > 10;
 
 3. SELECT * FROM `students` WHERE YEAR(`date_of_birth`) BETWEEN 1971 AND 1992;
+
+4. SELECT * FROM `courses` WHERE `period` LIKE 'I semestre' AND `year` = 1;
